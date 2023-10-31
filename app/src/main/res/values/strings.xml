@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NoteMe</string>
+    <string name="add_note">Add Note</string>
+    <string name="note_text">Start Typing…</string>
+    <string name="note_title">Title</string>
+    <string name="save_note">Save</string>
+    <string name="sample_note_title">Sample Note</string>
+</resources>
