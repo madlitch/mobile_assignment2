@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.massimo.location.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/mainToolbar"
@@ -28,8 +28,8 @@
         android:layout_gravity="center"
         android:iconifiedByDefault="false"
         android:queryBackground="@color/white"
-        android:queryHint="Search Notes"
-        app:defaultQueryHint="Search Notes"
+        android:queryHint="@string/search_location"
+        app:defaultQueryHint="@string/search_location"
         app:iconifiedByDefault="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

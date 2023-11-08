@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">NoteMe</string>
-    <string name="add_note">Add Note</string>
-    <string name="note_text">Start Typing…</string>
-    <string name="note_title">Title</string>
-    <string name="save_note">Save</string>
+    <string name="app_name">LocationPinned</string>
+    <string name="add_location">Add Location</string>
+    <string name="edit_location">Edit Location</string>
+    <string name="search_location">Search Locations</string>
+    <string name="location_latitude">Latitude</string>
+    <string name="location_longitude">Longitude</string>
+    <string name="location_address">Address</string>
+    <string name="save_location">Save</string>
     <string name="sample_note_title">Sample Note</string>
 </resources>

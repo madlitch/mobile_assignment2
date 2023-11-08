@@ -10,10 +10,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Lab2"
-        >
+        android:theme="@style/Theme.Lab2">
         <activity
-            android:name=".MainActivity"
+            android:name="com.massimo.location.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Lab2">
             <intent-filter>
@@ -23,10 +22,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddNote"
+            android:name="com.massimo.location.AddLocation"
             android:exported="true"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName="com.massimo.location.MainActivity"></activity>
+        <activity
+            android:name="com.massimo.location.EditLocation"
+            android:exported="true"
+            android:parentActivityName="com.massimo.location.MainActivity"></activity>
     </application>
 
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 </manifest>
